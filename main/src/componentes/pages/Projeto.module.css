@@ -1,0 +1,47 @@
+.projetoContainer{
+    width: 100%;
+    padding: 1.8rem;
+}
+
+.projetoContainer h1{
+    margin-bottom: 1.5rem;
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.5rem;
+}
+
+.projetoContainer button,
+.projetoContainer p{
+    margin-bottom: 0.8rem;
+}
+
+.projetoContainer span{
+    font-weight: bold;
+}
+
+.projetoDetalhes, .containerServicoForm{
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.0rem;
+    padding-bottom: 1.0rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: #222;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    max-height: 50px;
+}
+
+.btn:hover{
+    color: #ffbb33;
+}
+
+.projetoInfo{
+    width: 80vw;
+}

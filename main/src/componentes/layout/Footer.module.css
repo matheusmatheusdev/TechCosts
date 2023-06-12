@@ -1,0 +1,32 @@
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.socialList{
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /*para tirar a bolinha que fica quando usamos ul/li*/
+}
+
+.socialList svg{
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    margin: 0 1em;
+}
+
+.socialList svg:hover{
+    color: #ffbb33;
+}
+
+.copyRight{
+    margin-top: 2em;
+}
+
+.copyRight span{
+    font-weight: bold;
+    color: #ffbb33;
+}

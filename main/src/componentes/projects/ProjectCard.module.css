@@ -1,0 +1,89 @@
+.projetoCard{
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.projetoCard h4{
+    background-color: #222;
+    color: #ffbb33;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.projetoCard p{
+    color: #7a7a7a;
+    margin-bottom: 1em;
+}
+
+.projetoCard p span{
+    font-weight: bold;
+}
+
+.categoriaTexto{
+    display: flex;
+    align-items: center;
+}
+
+.categoriaTexto span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 5px;
+}
+
+.categoriaTexto .infraestrutura{
+    background-color: #ff8888 ;
+}
+
+.categoriaTexto .desenvolvimento{
+    background-color: #88ff88;
+}
+
+.categoriaTexto .design{
+    background-color: #88fbff;
+}
+
+.categoriaTexto .planejamento{
+    background-color: #d588ff;
+}
+
+.projetoCardActions{
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+}
+
+.projetoCardActions button, .projetoCardActions a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.4s;
+    
+    border: none;
+    border: 1px solid #222;
+    color: #222;
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 0.6em 1em;
+    margin-right: 1em;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+
+.projetoCardActions svg{
+    margin-right: 0.5em;
+}
+
+.projetoCardActions a:hover,
+
+.projetoCardActions button:hover{
+    background-color: #222;
+    color: #ffbb33;
+}
