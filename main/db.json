@@ -5,13 +5,19 @@
       "orcamento": "500",
       "numerocategoria": "1",
       "thecategoria": "Infraestrutura",
-      "costs": 499,
+      "costs": 220,
       "servicos": [
         {
-          "name": "banana",
-          "costs": "499",
-          "description": "banana",
-          "id": "1543c7c6-6224-45c5-81d9-ac2686cc3508"
+          "name": "bananas",
+          "costs": "100",
+          "description": "estoque de bananas",
+          "id": "4205d1b8-9014-4166-89ef-2613948fd304"
+        },
+        {
+          "name": "maças",
+          "costs": "120",
+          "description": "estoque de maças",
+          "id": "0c882edc-2504-4abe-aa12-b77afc700714"
         }
       ],
       "id": 1
