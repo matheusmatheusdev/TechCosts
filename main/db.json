@@ -1,25 +1,12 @@
 {
   "projetos": [
     {
-      "name": "feira",
-      "orcamento": "500",
-      "numerocategoria": "1",
-      "thecategoria": "Infraestrutura",
-      "costs": 220,
-      "servicos": [
-        {
-          "name": "bananas",
-          "costs": "100",
-          "description": "estoque de bananas",
-          "id": "4205d1b8-9014-4166-89ef-2613948fd304"
-        },
-        {
-          "name": "maças",
-          "costs": "120",
-          "description": "estoque de maças",
-          "id": "0c882edc-2504-4abe-aa12-b77afc700714"
-        }
-      ],
+      "name": "Feira",
+      "orcamento": "300",
+      "numerocategoria": "4",
+      "thecategoria": "Planejamento",
+      "costs": 0,
+      "servicos": [],
       "id": 1
     }
   ],
