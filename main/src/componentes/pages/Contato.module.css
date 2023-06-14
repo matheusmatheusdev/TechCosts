@@ -1,0 +1,50 @@
+.contatoContainer{
+    width: 100%;
+}
+
+.divTitulo{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.opcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divEmail{
+    width: 28%;
+    height: 200px;
+}
+
+.divTelefone{
+    width: 28%;
+    height: 200px;
+}
+
+.divZap{
+    width: 28%;
+    height: 200px;
+}
+
+.divEmail a, .divTelefone a, .divZap a{
+    font-size: 35px;
+    color: black;
+}
+
+.divEmail h2, .divTelefone h2, .divZap h2{
+    font-size: 16px;
+}
+
+.divEmail p, .divTelefone p, .divZap p{
+    color: #FFBB33;
+    margin: 5px 0px 5px 0px;
+}
+
