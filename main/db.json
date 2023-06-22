@@ -5,9 +5,32 @@
       "orcamento": "300",
       "numerocategoria": "4",
       "thecategoria": "Planejamento",
-      "costs": 0,
-      "servicos": [],
+      "costs": 120,
+      "servicos": [
+        {
+          "name": "bananas",
+          "costs": "120",
+          "description": "bananas...",
+          "id": "0827278d-76ba-4aaa-88ff-ba8ef8040f08"
+        }
+      ],
       "id": 1
+    },
+    {
+      "name": "Farmácia",
+      "orcamento": "3000",
+      "numerocategoria": "1",
+      "thecategoria": "Infraestrutura",
+      "costs": 400,
+      "servicos": [
+        {
+          "name": "remédios",
+          "costs": "400",
+          "description": "remédios...",
+          "id": "1efee566-cd64-46a0-9529-e6bf4132d771"
+        }
+      ],
+      "id": 2
     }
   ],
   "categorias": [
