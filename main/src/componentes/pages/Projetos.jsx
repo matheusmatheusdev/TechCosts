@@ -20,7 +20,7 @@ function Projetos(){
     }
 
     useEffect(() => {
-        fetch('http://localhost:5000/projetos',{
+        fetch('https://json-teste-eta.vercel.app/projetos',{
             method: 'GET',
             headers:{
                 'Content-Type': 'application/json',
@@ -34,7 +34,7 @@ function Projetos(){
     }, [])
 
     function removeProjeto(id){
-        fetch(`http://localhost:5000/projetos/${id}`,{
+        fetch(`https://json-teste-eta.vercel.app/projetos/${id}`,{
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

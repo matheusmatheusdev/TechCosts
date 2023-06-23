@@ -23,7 +23,7 @@ function Projeto(){
     const [mostraServicoForm, setMostraServicoForm] = useState(false)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/projetos/${id}`,{
+        fetch(`https://json-teste-eta.vercel.app/projetos/${id}`,{
             method: 'GET',
             headers:{
                 'Content-Type': 'application/json',
@@ -46,7 +46,7 @@ function Projeto(){
             return false
         }
 
-        fetch(`http://localhost:5000/projetos/${projeto.id}`,{
+        fetch(`https://json-teste-eta.vercel.app/projetos/${projeto.id}`,{
             method: 'PATCH',
             headers: {
                 'Content-Type': 'application/json',
@@ -113,7 +113,7 @@ function Projeto(){
         projetoUpdated.servicos = servicosUpdated
         projetoUpdated.costs = parseFloat(projetoUpdated.costs) - parseFloat(costs)
 
-        fetch(`http://localhost:5000/projetos/${projetoUpdated.id}`,{
+        fetch(`https://json-teste-eta.vercel.app/projetos/${projetoUpdated.id}`,{
             method: 'PATCH',
             headers:{
                 'Content-Type': 'application/json'

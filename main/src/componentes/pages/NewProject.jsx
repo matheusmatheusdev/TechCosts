@@ -12,7 +12,7 @@ function NewProject(){
         projetos.costs = 0
         projetos.servicos = []
 
-        fetch("http://localhost:5000/projetos", {
+        fetch("https://json-teste-eta.vercel.app/projetos", {
             method: 'POST', //para declarar que é um envio de formulario//
             headers: {
                 'Content-Type': 'application/json', //para declarar que quer se comunicar com json//
