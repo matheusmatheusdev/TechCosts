@@ -11,7 +11,7 @@ function ProjectForm({ handleSubmit, projetoData, btnTexto }){
     const [projeto, setProjeto] = useState(projetoData || {}) //se mostra um exemplo ou escrever todo//
 
     useEffect(() => {
-        fetch('http://localhost:5000/categorias',{
+        fetch('https://json-teste-eta.vercel.app/categorias',{
         method: 'GET',
         headers: {
             'Content-Type': 'application/json',
