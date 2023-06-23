@@ -87,7 +87,7 @@ function Projeto(){
         projeto.costs = novoCusto
     
         //atualiza o projeto//
-        fetch(`http://localhost:5000/projetos/${projeto.id}`,{
+        fetch(`https://json-teste-eta.vercel.app/projetos/${projeto.id}`,{
             method: 'PATCH',
             headers:{
                 'Content-Type': 'application/json'
